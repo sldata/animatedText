@@ -13,3 +13,54 @@ body {
 	background-color: #5bca5b;
 	flex-direction: column;
 }
+
+.btn {
+	padding: 0.5em 1em;
+	font-size: 1.6rem;
+	border: none;
+	border-radius: 6px;
+	background-color: #e5e5e5;
+	cursor: pointer;
+}
+
+p {
+	font-size: 3rem;
+	color: #fff;
+}
+
+.modal-btn {
+	position: absolute;
+	top: 200px;
+}
+
+.modal {
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	padding: 2em;
+	top: 200px;
+	width: 600px;
+	height: 200px;
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+.modal-input{
+	padding: 1em;
+	width: 100%;
+	font-size: 1rem;
+	border-radius: 6px;
+
+}
+
+.error-msg{
+	margin: 1em 0;
+	font-size: 1rem;
+	color: tomato;
+}
+
+.active {
+	display: flex;
+}
